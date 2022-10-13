@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mapper.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_one_trip"
+        android:name="com.example.mapper.ui.OneTripFragment"
+        android:label="@string/menu_one_trip"
+        tools:layout="@layout/fragment_one_trip" />
+    <fragment
+        android:id="@+id/nav_upload"
+        android:name="com.example.mapper.ui.UploadFragment"
+        android:label="@string/menu_upload"
+        tools:layout="@layout/fragment_upload" />
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.mapper.ui.ScheduleFragment"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/nav_address"
+        android:name="com.example.mapper.ui.AddressFragment"
+        android:label="@string/menu_address"
+        tools:layout="@layout/fragment_address" />
+    <fragment
+        android:id="@+id/nav_credits"
+        android:name="com.example.mapper.ui.CreditsFragment"
+        android:label="@string/menu_credits"
+        tools:layout="@layout/fragment_credits"/>
+
+
+</navigation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.UpdateTripActivity">
+
+    <TextView
+        android:id="@+id/text_trip_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_address"/>
+
+
+    <EditText
+        android:id="@+id/edit_address_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select"
+        android:focusable="false"
+        android:onClick="updateAddress"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:onClick="setAddress"/>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Journey Mapper</string>
+    <string name="title_activity_search_address">SearchAddressActivity</string>
+    <string name="address_listener_item">Do you want to delete this address?</string>
+    <string name="event_listener_item">Do you want to delete this schedule?</string>
+    <string name="permission_background">to access your background location. This will allow the application to track your location while the app is not opened. Please choose "Allow all the time".</string>
+    <string name="permission_fine">to access your fine location. This will allow the application to access your current location to high accuracy</string>
+
+    <string name="google_auto_error">Invalid search, check internet connection.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Journey Mapper</string>
+    <string name="nav_header_subtitle">Track</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="shared_p">sharedP</string>
+    <string name="auto_switch">autoSwitch</string>
+    <string name="view_all">viewAll</string>
+    <string name="view_days">viewDays</string>
+    <string name="view_month">viewMonth</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_address">Address</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_one_trip">One Off Trip</string>
+    <string name="menu_upload">Upload Trip</string>
+    <string name="menu_credits">Credits</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="day_of_week">Day of Week</string>
+    <string name="start_time">Start Time</string>
+    <string name="select">Select</string>
+    <string name="length_of_commute">Length of Commute</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="start_address">Start Address</string>
+    <string name="end_address">End Address</string>
+    <string name="travel_method">Travel Method</string>
+    <string name="ok">OK</string>
+    <string name="currently_tracking">Currently Tracking</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="update_address">Update Address</string>
+    <string name="add_a_new_address">Add a new address</string>
+    <string name="name">Name:</string>
+    <string name="e_g_home">e.g. Home</string>
+    <string name="add">Add</string>
+    <string name="address_error">Name already used. Please choose another one.</string>
+    <string name="your_addresses">Your Addresses</string>
+    <string name="trips">Trips</string>
+    <string name="all">All</string>
+    <string name="_7_days">7 days</string>
+    <string name="_31_days">31 days</string>
+    <string name="create_one_off_trip">Create One Off Trip</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="add_commute">Add Commute</string>
+    <string name="upload">Upload</string>
+    <string name="auto_upload">Auto Upload</string>
+    <string name="select_uploads">Select trips to be uploaded</string>
+    <string name="view">View</string>
+    <string name="rhane">Developed by Rhane Mercado</string>
+    <string name="credit_description">This application was developed for a Summer Research Scholarship with Priority One and the University of Waikato.</string>
+    <string name="supervised_by">Supervised by:</string>
+    <string name="shane_stuart">Shane Stuart, Innovation Manager at Priority One</string>
+    <string name="dr_jessica_turner">Dr Jessica Turner, Lecturer at the University of Waikato</string>
+
+
+</resources>

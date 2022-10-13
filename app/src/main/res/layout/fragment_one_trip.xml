@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.OneTripFragment"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="10dp"
+        style="@style/title"
+        android:text="@string/create_one_off_trip"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:paddingBottom="30dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:layout_gravity="fill"
+            android:text="@string/start_address"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_start_address_one"
+            android:layout_width="0dp"
+            android:layout_columnWeight="2"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:hint="@string/select"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:layout_gravity="fill"
+            android:text="@string/end_address"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_end_address_one"
+            android:layout_width="0dp"
+            android:layout_columnWeight="2"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:hint="@string/select"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="fill"
+            android:layout_gravity="fill"
+            android:text="@string/travel_method"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_travel_method_one"
+            android:layout_width="0dp"
+            android:layout_columnWeight="2"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill">
+        </Spinner>
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/button_start_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start">
+    </Button>
+</LinearLayout>

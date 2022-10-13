@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/ic_menu_address"
+            android:title="@string/menu_address"/>
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_schedule"
+            android:title="@string/menu_schedule"/>
+        <item
+            android:id="@+id/nav_one_trip"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="@string/menu_one_trip"/>
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_baseline_cloud_upload_24"
+            android:title="@string/menu_upload"/>
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/credit_i"
+            android:title="@string/menu_credits"/>
+    </group>
+</menu>

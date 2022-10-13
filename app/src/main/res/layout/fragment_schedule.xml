@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.ScheduleFragment">
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="5">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/mon"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/tue"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/wed"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/thu"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/fri"/>
+
+    <GridLayout
+        android:id="@+id/gridMon"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:columnCount="1">
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridTue"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:columnCount="1">
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridWed"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:columnCount="1">
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridThu"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:columnCount="1">
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridFri"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:columnCount="1">
+    </GridLayout>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonAddSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_commute"/>
+
+</LinearLayout>
+

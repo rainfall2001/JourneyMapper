@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.UploadFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/title"
+        android:id="@+id/text_trips_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/select_uploads"
+        android:layout_alignParentTop="true">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_layout_upload"
+        android:layout_below="@+id/text_trips_upload">
+
+        <TextView
+            android:id="@+id/text_trips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text_trips"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
+
+            <RadioButton android:id="@+id/radio_all_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all"
+                android:paddingRight="@dimen/padding_home_right"
+                android:checked="true"/>
+
+            <RadioButton android:id="@+id/radio_days_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_7_days"
+                android:paddingRight="@dimen/padding_home_right" />
+
+            <RadioButton android:id="@+id/radio_month_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_31_days"
+                android:paddingRight="@dimen/padding_home_right"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_trips_uploaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_upload"
+        android:layout_above="@+id/linear_bottom">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linear_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload">
+        </Button>
+
+        <Switch
+            android:id="@+id/switch_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auto_upload"
+            android:paddingLeft="30dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
